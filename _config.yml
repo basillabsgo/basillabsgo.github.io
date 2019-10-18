@@ -16,7 +16,7 @@ tagline: description for your new site here
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: ''
+baseurl: 
 url: http://127.0.0.1:4000/
 twitter_username: jekyllrb
 github_username: jekyll
@@ -28,9 +28,9 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-include-cache
-google_analytics: ''
+google_analytics: 
 disqus:
-  shortname: ''
+  shortname: 
 hero: product_fixed_image
 hero_sass_name: We Made our <br> Software 100% Errorless
 hero_sass_text: The first is a non technical method which requires the use of adware
