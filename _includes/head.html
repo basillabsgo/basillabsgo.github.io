@@ -1,23 +1,13 @@
-<head>
-    <!-- Mobile Specific Meta -->
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
-
-    <!-- meta character set -->
-    <meta charset="UTF-8">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700" rel="stylesheet">
-    <!-- ===========================================
-		CSS
-	============================================= -->
-    <link rel="stylesheet" href="{{ 'css/linearicons.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/font-awesome.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/bootstrap.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/magnific-popup.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/nice-select.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/animate.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/owl.carousel.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
-    {% include seo.html %}
-</head>
+    <base href="{{ site.baseurl }}">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/forestryio/ubuild-blocks@1.0.0/dist/css/ubuild.css"/>
+  </head>
+  <body>
