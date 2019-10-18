@@ -1,5 +1,5 @@
 ---
-title: Softdash - Creative SaaS And Software HTML5 Jekyll Template
+title: Basil Labs
 timezone: UTC
 collections:
   posts:
@@ -8,18 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Becore
-email: demo@example.com
-address: '2216 Park Avenue, California 95630 '
-phone: '0185612012035'
-tagline: description for your new site here
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+name: Basil Labs
+email: connect@basillabs.org
+address: 745 ATLANTIC AVENUE, BOSTON MA 02111
+tagline: Basil Labs
+description: Basil Labs helps your organization understand your consumers, innovate
+  and outpace the competition.
 baseurl: 
 url: http://127.0.0.1:4000/
-twitter_username: jekyllrb
-github_username: jekyll
+Medium: https://medium.com/@connect.basillabs
 favicon: img/favicon.png
 paginate: 12
 paginate_path: "/blog/page:num/"
