@@ -1,6 +1,7 @@
 ---
 title: How To Set Intentions That Energize You
-image: 'img/blog/b2.jpg'
+date: 2019-09-04 00:00:00 Z
+image: img/blog/b2.jpg
 layout: post
 ---
 
