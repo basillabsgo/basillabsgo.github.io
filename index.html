@@ -2,29 +2,114 @@
 layout: default
 ---
 
-{% include hero.html %}
+    <!-- Start hero-section -->
+    <section class="hero-section relative">
+        <div class="container">
+            <div class="row fullscreen align-items-center relative">
+                <div class="col-lg-6 content-wrap">
+                    <h1>
+                        {{ site.hero_sass_background_image_name }}
+                    </h1>
+                    <p class="pt-20 pb-20 mw-510">
+                        {{ site.hero_sass_background_image_text }}
+                    </p>
+                    <a href="{{ site.hero_sass_background_image_btn_one_link | relative_url }}" class="genric-btn">
+                        {{ site.hero_sass_background_image_btn_one_text  }}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img class="hero-img" src="{{ site.hero_sass_background_image_image | relative_url }}" alt="">
+    </section>
+    <!-- End hero-section -->
 
-{% include section/feature.html %}
+    <!-- Start stat-section -->
+    <section class="stat-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ site.statistics_image | relative_url }}" alt="">
+                    </div>
+                    <h1>{{ site.statistics_title }}</h1>
+                    <p>
+                        {{ site.statistics_description }}
+                    </p>
+                </div>
+            </div>
 
-{% include section/marketing.html %}
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12 text-centerpr-3 pr-md-5">
+                    <img class="img-fluid" src="{{ site.statistics_start_image | relative_url }}" alt="">
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-stat">
+                                <div class="icon">
+                                    <img src="{{ site.statistics_item_one_image| relative_url }}" alt="">
+                                </div>
+                                <div class="desc">
+                                    <a href="{{ site.statistics_item_one_link }}" class="d-block">
+                                        <h4>{{ site.statistics_item_one_title }}</h4>
+                                    </a>
+                                    <p>
+                                       {{ site.statistics_item_one_description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-stat">
+                                <div class="icon">
+                                    <img src="{{ site.statistics_item_two_image| relative_url }}" alt="">
+                                </div>
+                                <div class="desc">
+                                    <a href="{{ site.statistics_item_two_link }}" class="d-block">
+                                        <h4>{{ site.statistics_item_two_title }}</h4>
+                                    </a>
+                                    <p>
+                                        {{ site.statistics_item_two_description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-stat">
+                                <div class="icon">
+                                    <img src="{{ site.statistics_item_three_image| relative_url }}" alt="">
+                                </div>
+                                <div class="desc">
+                                    <a href="{{ site.statistics_item_three_link }}" class="d-block">
+                                        <h4>{{ site.statistics_item_three_title }}</h4>
+                                    </a>
+                                    <p>
+                                        {{ site.statistics_item_three_description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-stat">
+                                <div class="icon">
+                                    <img src="{{ site.statistics_item_four_image| relative_url }}" alt="">
+                                </div>
+                                <div class="desc">
+                                    <a href="{{ site.statistics_item_four_link }}" class="d-block">
+                                        <h4>{{ site.statistics_item_four_title }}</h4>
+                                    </a>
+                                    <p>
+                                        {{ site.statistics_item_four_description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End stat-section -->
 
-{% include section/stat.html %}
-
-{% include section/cta.html %}
-
-{% include section/social.html %}
-
-{% include section/price.html %}
-
-{% include section/unique-feature.html %}
-
-{% include section/brands.html %}
-
-
-{% include section/client-review.html %}
-
-{% include section/blog.html %}
-
-{% include section/contact.html %}
 
 
