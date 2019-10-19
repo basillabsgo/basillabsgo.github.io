@@ -1,5 +1,5 @@
 ---
-title: Softdash - Creative SaaS And Software HTML5 Jekyll Template
+title: Basil Labs
 timezone: UTC
 collections:
   posts:
@@ -8,18 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Becore
-email: demo@example.com
-address: '2216 Park Avenue, California 95630 '
-phone: '0185612012035'
-tagline: description for your new site here
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-baseurl: ''
+name: Basil Labs
+email: connect@basillabs.org
+address: '745 ATLANTIC AVENUE, BOSTON MA'
+tagline: Basil Labs
+description: Basil Labs helps your organization understand your consumers, innovate and outpace the competition.
+baseurl: 'basillabs.org'
 url: http://127.0.0.1:4000/
-twitter_username: jekyllrb
-github_username: jekyll
 paginate: 12
 paginate_path: "/blog/page:num/"
 markdown: kramdown
@@ -52,7 +47,7 @@ hero_sass_background_image_name: We Made our <br> Software 100% Errorless
 hero_sass_background_image_text: The first is a non technical method which requires
   the use of adware removal software.  Download free adware and spyware removal software
   and use advanced tools to help prevent  getting infected.
-hero_sass_background_image_image: img/hero/yelp.png
+hero_sass_background_image_image: img/hero/network.png
 hero_sass_background_image_btn_one_link: "#"
 hero_sass_background_image_btn_one_text: Browse free demo
 hero_saas_fixed_image_name: We Made our <br> Software 100% Errorless
@@ -148,8 +143,8 @@ marketing_description: The first is a non technical method which requires the us
   use advanced tools to help prevent getting infected. Spyware scan review is a free
   service for anyone interested in downloading spyware/adware removal software. Our
   adware remover is the most trusted.
-marketing_image_one: "/img/marketing/d1.png"
-marketing_image_two: "/img/marketing/d2.png"
+marketing_image_one: "/img/marketing/dashboards.png"
+marketing_image_two: "/img/marketing/dashboards.png"
 marketing_btn_text: Browse free demo
 marketing_btn_link: "#"
 statistics_title: We glow with Our Statistics
