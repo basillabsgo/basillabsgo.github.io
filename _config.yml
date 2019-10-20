@@ -48,7 +48,7 @@ hero_sass_background_image_name: We Made our <br> Software 100% Errorless
 hero_sass_background_image_text: The first is a non technical method which requires
   the use of adware removal software.  Download free adware and spyware removal software
   and use advanced tools to help prevent  getting infected.
-hero_sass_background_image_image: img/hero/network.png
+hero_sass_background_image_image: img/hero/hero-img.png
 hero_sass_background_image_btn_one_link: "#"
 hero_sass_background_image_btn_one_text: Browse free demo
 hero_saas_fixed_image_name: We Made our <br> Software 100% Errorless
@@ -153,7 +153,7 @@ statistics_description: The first is a non technical method which requires the u
   of adware removal software. Download free adware and spyware removal software and
   use advanced tools getting infected.
 statistics_image: img/title-icon.png
-statistics_start_image: img/youtube.png
+statistics_start_image: img/title-icon.png
 statistics_item_one_image: img/stat/s1.png
 statistics_item_one_title: Productivity
 statistics_item_one_link: "#"
