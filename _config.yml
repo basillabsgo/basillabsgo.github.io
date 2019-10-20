@@ -14,8 +14,8 @@ address: 745 ATLANTIC AVENUE, BOSTON MA
 tagline: Basil Labs
 description: Basil Labs helps your organization understand your consumers, innovate
   and outpace the competition.
-baseurl: basillabs.org
-url: http://127.0.0.1:4000/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000/"
 paginate: 12
 paginate_path: "/blog/page:num/"
 markdown: kramdown
